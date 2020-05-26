@@ -1,0 +1,43 @@
+:root {
+    --text-color: #333;
+    --primary-color: #fff;
+    
+    --img-width: 614px;
+    --img-height: 614px
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* resbonsive temp */
+
+.grid{
+    width: 935px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-full{
+    width: 100%;
+}
+
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.grid-col-8{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 66.6667%;
+}
