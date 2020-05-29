@@ -86,12 +86,19 @@
     text-align: center;
 }
 
-.followed-avt{
+.followed-item__intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 60px;
     height: 60px;
+    margin-bottom: 6px;
+}
+
+.followed-avt{
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
-    border: 2px solid orange;
-    padding: 2px;
     object-fit: cover;
 }
 
@@ -240,12 +247,9 @@
 }
 
 /* Body right */
-.main-right{
-}
-/* User */
-.user__suggest{
 
-}
+/* User */
+
 .user__info{
     display: flex;
     align-items: center;
@@ -290,9 +294,6 @@
 }
 
 /* Suggest */
-.suggest{
-
-}
 
 .suggest__header{
     display: flex;
@@ -310,10 +311,6 @@
     text-decoration: none;
     color: var(--text-color);
     font-size: 1.2rem;
-}
-
-.suggest__main{
-
 }
 
 .suggest__list{
